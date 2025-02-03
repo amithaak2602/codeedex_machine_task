@@ -150,7 +150,7 @@ class _LoginState extends State<LoginScreen> {
                           ),
                         ),
                         onTap: () async {
-                          // if (_formKey.currentState!.validate()) {
+                           if (_formKey.currentState!.validate()) {
                           setState(() {
                             isLoad = true;
                           });
@@ -163,7 +163,7 @@ class _LoginState extends State<LoginScreen> {
                             setState(() {
                               isLoad = false;
                             });
-                            //  }
+                              }
                           }
                         },
                       ),
